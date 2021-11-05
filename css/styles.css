@@ -1,0 +1,30 @@
+ h1 {
+    color: blue;
+    text-align: center;
+  }
+  h2 {
+    color: green;
+    font-style: italic;
+    text-align: center;
+  }
+  p {
+    font-family: sans-serif;
+    color: aqua;
+  }
+  ul {
+    line-height: 40px;
+  }
+  .intro {
+    font-style: italic;
+  }
+  .introd {
+    font-style: italic;
+    color: brown;
+  }
+  image{
+      float: left;
+      font-size: small;    
+  }
+  body {
+    font-family: sans-serif;
+  }
