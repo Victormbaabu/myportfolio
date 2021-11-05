@@ -17,6 +17,7 @@ h1 {
   .intro-section {
     font-style: italic;
     background-color: skyblue;
+    display: flex;
   }
   #project-section{
     display: flex;
@@ -28,13 +29,20 @@ h1 {
     border: 5px;
   }  
 
-  .p-ssection{
-      font-style: italic;
-      background-color:  cyan;
-      height: 150px;
-      width: 150px;
-      border: 5px;
-      float:left
+  .projects{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      box-sizing: border-box;   
+
+     
+  }
+
+  .projects img{
+    width: 260px;
+    height: 240px;
+    margin: 10px;
+
   }
   image{
       float: left;
@@ -42,4 +50,29 @@ h1 {
   }
   body {
     font-family: sans-serif;
+  }
+
+  #skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  } 
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450;
+    border: 1px solid black;  
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
   }
