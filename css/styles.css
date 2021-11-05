@@ -18,9 +18,23 @@ h1 {
     font-style: italic;
     background-color: skyblue;
   }
-  #project section{
-    font-style: italic;
-    background-color:  brown;
+  #project-section{
+    display: flex;
+    background-color:  cyan;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    border: 5px;
+  }  
+
+  .p-ssection{
+      font-style: italic;
+      background-color:  cyan;
+      height: 150px;
+      width: 150px;
+      border: 5px;
+      float:left
   }
   image{
       float: left;
