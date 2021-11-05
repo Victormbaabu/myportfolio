@@ -9,7 +9,7 @@
   }
   p {
     font-family: sans-serif;
-    color: aqua;
+    color: red;
   }
   ul {
     line-height: 40px;
@@ -27,4 +27,7 @@
   }
   body {
     font-family: sans-serif;
+  }
+  .project section{
+      background-color: skyblue;
   }
