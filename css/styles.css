@@ -18,12 +18,19 @@ h1 {
   }
   ul {
     line-height: 70px;
+    text-decoration: none;
     font-size: large;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
   }
+
     ol {
       line-height: 70px;
       font-size: x-large;
       color: purple;
+  }
+  .data .h1{
+    text-align: left;
   }
   .intro-section {
     font-style: italic;
