@@ -87,6 +87,9 @@ h1 {
     flex-wrap: wrap;
     box-sizing: border-box;
   } 
+  #about-section{
+    padding: 20px 50px;
+  }
   .box{
     display: flex;
     flex-direction: column;
