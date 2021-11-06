@@ -13,6 +13,12 @@ h1 {
   }
   ul {
     line-height: 70px;
+    font-size: medium;
+  }
+    ol {
+      line-height: 70px;
+      font-size: x-large;
+      color: purple;
   }
   .intro-section {
     font-style: italic;
@@ -46,7 +52,7 @@ h1 {
   }
   image{
       float: left;
-      font-size: small;    
+      font-size: medium;    
   }
   body {
     font-family: sans-serif;
