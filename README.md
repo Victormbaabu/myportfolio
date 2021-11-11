@@ -8,9 +8,12 @@
 * Navigate to the Projects name 
 * Navigate to the cloning section and clone the repository.
 * Paste the URL in your machine's location and open the project
-* Link to the live site is on GitHub pages https://github.com/Victormbaabu/myportfolio/branches
+
 
 {This application does not depend on any other code.}
+## live link
+https://victormbaabu.github.io/myportfolio/
+
 ## Known Bugs
 {The application has no known bugs. However it is still being improved }
 ## Technologies Used
